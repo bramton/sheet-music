@@ -13,10 +13,10 @@ verseI = \lyricmode {
 
 verseII = \lyricmode {
   \set stanza = #"2."
-  Zijn knecht staat te lachen en roept ons reeds toe,
+  Zijn knecht staat te lach -- en en roept ons reeds toe,
   wie zoet is krijgt lek -- kers, wie stout is de roe.
-  Oh lie -- ve Sint Ni -- ko -- laas, kom ook eens bij mij,
-  en r -- ij toch niet sti -- le -- tjes ons huis -- je voor -- bij.
+  Oh lie -- ve Sint Ni -- kolaas, kom ook eens bij mij,
+  en rij to -- ch ni -- et stil -- etjes ons huis -- je voor -- bij.
 }
 
 theChords = \chordmode { 
@@ -29,9 +29,9 @@ theChords = \chordmode {
   g2. | d2. | d2.:7 | g2. |
 }
 
-staffMelody = \relative c' {
+staffMelody = \relative c {
   \key e \minor
-  \clef treble
+  \clef "treble_8"	
   \time 3/4
   \partial 4 d4 |
   g g b | a a c | f, f a | g2
